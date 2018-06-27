@@ -1,66 +1,8 @@
-<img src="https://raw.githubusercontent.com/anishathalye/gavel/docs/banner.png" width="450" height="150" alt="Gavel banner">
-
-**Gavel** is a project expo judging system.
-
-Gavel was originally built for HackMIT and first used at HackMIT 2015. It has
-been used by [dozens][users] of other events since then.
-
-**If you use Gavel for your event, please add yourself to [this list][users]!
-It only takes a minute, and knowing that Gavel is helping real events helps
-keep us going <3**
-
-[![Join the chat at https://gitter.im/anishathalye/gavel](https://badges.gitter.im/anishathalye/gavel.svg)](https://gitter.im/anishathalye/gavel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-## Demo
-
-<p align="center">
-    <a href="http://www.anishathalye.com/2016/09/19/gavel-an-expo-judging-system/">
-        <img src="https://raw.githubusercontent.com/anishathalye/gavel/docs/screenshot.png" width="320" height="568" alt="Gavel screenshot">
-    </a>
-</p>
-
-See the demo video
-[here](http://www.anishathalye.com/2016/09/19/gavel-an-expo-judging-system/)!
-
-## Users
-
-See [here][users] for a list of events that have used Gavel in the past.
-
-**If you use Gavel for your event, please add yourself to the list! It only
-takes a minute, and knowing that Gavel is helping real events helps keep us
-going <3**
-
-and adding yourself to the list helps keep me motivated to continue
-working on the software :)
-
-## Design
-
-Gavel is based on the method of pairwise comparisons. Before you use Gavel,
-it's *highly recommended* that you read about the philosophy behind the
-implementation as well as hints on how to use it in practice. Read [this blog
-post][blog-1] first, and then read [this blog post][blog-2].
-
-## Status
-
-Gavel is stable software. We've used it successfully at HackMIT, and a bunch of
-other hackathons and events have used it too.
-
-Gavel is a pretty different way of doing judging. If you want to use this for
-your hackathon or event, we highly recommend that you:
-
-* Deploy it and play around with it ahead of time to get a feel for how the
-  system works
-* Read the blog posts linked above to get an idea of how to structure the
-  judging process
-
-If you have any questions, feel free to [email me][email].
-
-If you're able to contribute to making Gavel better, that would be **awesome**!
-We'd really appreciate any kind of input, especially pull requests.
+### WSF Startup Ranker
 
 ## Deployment
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anishathalye/gavel/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/WorldStartupFDN/WSF-Startup-Ranker/tree/master)
 
 The latest stable version is the `master` branch (and it's signed and tagged).
 Development happens in the `develop` branch.
@@ -95,12 +37,6 @@ variables. There's more detailed documentation in `config.template.yaml`.
 If you don't want to use the config file and use only environment variables,
 set the environment variable `IGNORE_CONFIG_FILE=true`.
 
-## Troubleshooting
-
-See the [troubleshooting
-guide](https://github.com/anishathalye/gavel/wiki/Troubleshooting) in the Gavel
-wiki.
-
 ## Use
 
 To set up the system, use the admin interface on `/admin`. Log in with the
@@ -134,49 +70,3 @@ quality (Mu).
     * If you need to edit a project (name, location, or description), you can
       do so on the item detail page
 * If you want to sort the items in the admin panel, click on the table headers
-
-## Development
-
-Interested in hacking on Gavel? Awesome. See [DEVELOPMENT.md][development] for
-a dev setup guide.
-
-## Notes
-
-If you do end up using this for your competition or hackathon, I would love to
-hear about how it goes.
-
-If anyone has questions, feel free to email Anish (me@anishathalye.com).
-
-## Contributing
-
-Do you have a feature request, bug report, or patch? Great! See
-[CONTRIBUTING.md][contributing] for information on what you can do about that.
-
-## Citation
-
-If you use Gavel in any way in academic work, please cite the following:
-
-```
-@misc{athalye2016gavel,
-  author = {Anish Athalye},
-  title = {Gavel},
-  year = {2016},
-  howpublished = {\url{https://github.com/anishathalye/gavel}},
-  note = {commit xxxxxxx}
-}
-```
-
-## License
-
-Copyright (c) 2015-2017 Anish Athalye. Released under AGPLv3. See
-[LICENSE.txt][license] for details.
-
-[blog-1]: http://www.anishathalye.com/2015/03/07/designing-a-better-judging-system/
-[blog-2]: http://www.anishathalye.com/2015/11/09/implementing-a-scalable-judging-system/
-[issues]: https://github.com/anishathalye/gavel/issues
-[contributing]: CONTRIBUTING.md
-[license]: LICENSE.txt
-[development]: DEVELOPMENT.md
-[email]: mailto:me@anishathalye.com
-[gunicorn]: http://gunicorn.org/
-[users]: https://github.com/anishathalye/gavel/wiki/Users
