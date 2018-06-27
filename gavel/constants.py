@@ -11,12 +11,11 @@ SETTING_FALSE = 'false'
 # Defaults
 # these can be overridden via the config file
 DEFAULT_WELCOME_MESSAGE = '''
-Welcome to Gavel.
+Welcome to GSA Startup Ranker.
 
 **Please read this important message carefully before continuing.**
 
-Gavel is a fully automated expo judging system that both tells you where to go
-and collects your votes.
+GSA Startup Ranker is a fully automated and online startup awards ranking system that simplifies the system with the latest in technology.
 
 The system is based on the model of pairwise comparison. You'll start off by
 looking at a single submission, and then for every submission after that,
@@ -31,12 +30,12 @@ Gavel makes it really simple for you to submit votes, but please think hard
 before you vote. **Once you make a decision, you can't take it back**.
 '''.strip()
 
-DEFAULT_EMAIL_SUBJECT = 'Welcome to Gavel!'
+DEFAULT_EMAIL_SUBJECT = 'Welcome to GSA Startup Ranker!'
 
 DEFAULT_EMAIL_BODY = '''
 Hi {name},
 
-Welcome to Gavel, the online expo judging system. This email contains your
+Welcome to GSA Startup Ranker, the fully automated and online startup awards ranking system. This email contains your
 magic link to the judging system.
 
 DO NOT SHARE this email with others, as it contains your personal magic link.
@@ -44,7 +43,7 @@ DO NOT SHARE this email with others, as it contains your personal magic link.
 To access the system, visit {link}.
 
 Once you're in, please take the time to read the welcome message and
-instructions before continuing.
+instructions carefully before continuing.
 '''.strip()
 
 DEFAULT_CLOSED_MESSAGE = '''
